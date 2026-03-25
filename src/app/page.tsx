@@ -78,9 +78,9 @@ export default function LandingPage() {
       useInvertedBackground={false}
       features={[
         {
-          id: "interior-detail",          title: "Precision Interior Detailing",          description: "From vacuuming every crumb to polishing surfaces and conditioning leather, we ensure your car's interior feels fresh and pristine.",          imageSrc: "http://img.b2bpic.net/free-photo/interior-modern-red-luxury-sport-car_181624-25467.jpg"},
+          id: "interior-detail",          title: "Precision Interior Detailing",          description: "From vacuuming every crumb to polishing surfaces and conditioning leather, we ensure your car's interior feels fresh and pristine.",          imageSrc: "http://img.b2bpic.net/premium-photo/foam-detergent-cleaning-leather-seat-using-brush-worker-auto-cleaning-service-clean-car-inside-car-interior-detailing_255847-7909.jpg?id=33580195"},
         {
-          id: "exterior-wash-wax",          title: "Spotless Exterior Wash & Wax",          description: "Our exterior service includes a thorough wash, paint decontamination, wheel cleaning, tire dressing, and a durable wax for lasting shine and protection.",          imageSrc: "http://img.b2bpic.net/free-photo/car-polishing-process-washing_23-2149547517.jpg"},
+          id: "exterior-wash-wax",          title: "Spotless Exterior Wash & Wax",          description: "Our exterior service includes a thorough wash, paint decontamination, wheel cleaning, tire dressing, and a durable wax for lasting shine and protection.",          imageSrc: "http://img.b2bpic.net/free-photo/car-wash-detailing-station_1303-22322.jpg?id=8380359"},
       ]}
       title="Our Promise: Meticulous Care & Guaranteed Satisfaction"
       description="We don't just clean cars; we restore them. Our dedicated student team adheres to a strict detailing regimen, ensuring every crevice and surface shines with perfection. Your satisfaction is our top priority, and we stand by the quality of our work."
