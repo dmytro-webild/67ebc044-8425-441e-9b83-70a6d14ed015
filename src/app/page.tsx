@@ -86,7 +86,7 @@ export default function LandingPage() {
       useInvertedBackground={false}
       heading={[
         {
-          type: "text",          content: "About Our Dedicated Student Team"},
+          type: "text",          content: "We’re two dedicated high school freshmen who take pride in delivering top-quality detailing with a personal touch. What sets us apart isn’t just our attention to detail—it’s the way we treat every client with honesty, respect, and care. We believe that great service starts with trust, which is why we never ask for payment until you’re completely satisfied with the results. Even at a young age, we’ve built a reputation for being reliable, hardworking, and genuinely passionate about what we do. Every car we work on gets our full effort, as if it were our own. We enjoy transforming vehicles and seeing the difference a clean, polished finish can make—not just for the car, but for its owner too. Our goal is simple: to provide a professional-level clean while building real connections with our customers. We’re always learning, improving, and pushing ourselves to be better with every job. When you choose us, you’re not just getting a service—you’re supporting two motivated students who care deeply about doing things the right way."},
       ]}
     />
   </div>
