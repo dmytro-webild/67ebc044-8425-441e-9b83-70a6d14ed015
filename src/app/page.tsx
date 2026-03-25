@@ -54,23 +54,7 @@ export default function LandingPage() {
         variant: "plain"}}
       title="Shine Brighter with Detail Pros - Your Car, Our Passion."
       description="Experience top-tier car detailing by dedicated local high school students. We guarantee meticulous attention to every detail, ensuring your vehicle looks its absolute best, every time."
-      testimonials={[
-        {
-          name: "Sarah J.",          handle: "@HappyDriver",          testimonial: "My car hasn't looked this good since I bought it! The students were incredibly thorough and professional. Highly recommend Detail Pros!",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/beautiful-woman-cafe_273609-12690.jpg?_wi=1"},
-        {
-          name: "Mark T.",          handle: "@CleanRide",          testimonial: "The attention to detail was outstanding. They really took their time and made sure every inch of my car was spotless. Fantastic work!",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/front-view-man-working-as-nurse_23-2151061623.jpg?_wi=1"},
-        {
-          name: "Emily R.",          handle: "@ShinyCar",          testimonial: "So impressed by the dedication of these students. My car feels brand new, and the price was unbeatable for the quality. Will definitely be a repeat customer.",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/happy-overjoyed-woman-rejoicing-her-success_74855-3513.jpg?_wi=1"},
-        {
-          name: "David K.",          handle: "@LocalSupporter",          testimonial: "It's great to support local students doing such high-quality work. They were polite, efficient, and my car looks showroom ready. Excellent service!",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-cheerful-teenage-girl-sitting-cafe_1262-3048.jpg?_wi=1"},
-        {
-          name: "Jessica L.",          handle: "@DetailFan",          testimonial: "From the wheels to the interior, every part of my car was gleaming. Their 'guaranteed satisfaction' is no joke - they truly deliver!",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/headshot-attractive-young-redhead-female-with-hair-bun-sitting-cafe-having-surprised-facial-expression_273609-9261.jpg?_wi=1"},
-      ]}
+      testimonials={[]}
       buttons={[
         {
           text: "View Services",          href: "#services"},
@@ -132,35 +116,41 @@ export default function LandingPage() {
       useInvertedBackground={false}
       plans={[
         {
-          id: "bronze",          badge: "Basic Brilliance",          badgeIcon: Sparkles,
-          price: "$99",          subtitle: "Essential clean, inside and out.",          buttons: [
+          id: "standard",          badge: "STANDARD DETAIL",          badgeIcon: Sparkles,
+          price: "Starting at $179",          subtitle: "Best for regular maintenance.",          buttons: [
             {
-              text: "Book Bronze",              href: "#contact"},
+              text: "Book Standard",              href: "#contact"
+            },
           ],
           features: [
-            "Exterior wash & dry",            "Vacuum interior",            "Window cleaning",            "Tire dressing",            "Wipe down surfaces"],
+            "Full interior and exterior clean",            "Vacuum, wipe-down, windows, wash",            "Light dirt and salt removal",            "*Final price depends on vehicle size and condition."
+          ],
         },
         {
-          id: "silver",          badge: "Enhanced Clean",          badgeIcon: Shield,
-          price: "$149",          subtitle: "Deep clean with added protection.",          buttons: [
+          id: "enhanced",          badge: "ENHANCED DETAIL",          badgeIcon: Shield,
+          price: "Starting at $219",          subtitle: "Most popular, best value for most vehicles.",          buttons: [
             {
-              text: "Book Silver",              href: "#contact"},
+              text: "Book Enhanced",              href: "#contact"
+            },
           ],
           features: [
-            "Bronze package features",            "Hand wax application",            "Interior detail & polish",            "Door jam cleaning",            "Air freshener treatment"],
+            "Every perk from Standard detail",            "Deeper interior cleaning (seats, carpets, buildup, and grime)",            "More detailed exterior finish and shine",            "*Final price depends on vehicle size and condition."
+          ],
         },
         {
-          id: "gold",          badge: "Ultimate Perfection",          badgeIcon: Award,
-          price: "$249",          subtitle: "Full rejuvenation, top to bottom.",          buttons: [
+          id: "deep",          badge: "DEEP DETAIL",          badgeIcon: Award,
+          price: "Starting at $289",          subtitle: "Best for heavily used or very dirty cars.",          buttons: [
             {
-              text: "Book Gold",              href: "#contact"},
+              text: "Book Deep",              href: "#contact"
+            },
           ],
           features: [
-            "Silver package features",            "Clay bar treatment",            "Leather conditioning",            "Engine bay detail",            "Fabric stain removal"],
+            "Everything in Enhanced",            "Heavy stain removal + deep extraction",            "Full interior reset + high detailed finish",            "*Final price depends on vehicle size and condition."
+          ],
         },
       ]}
       title="Flexible Tiers for Every Need"
-      description="Choose from our Bronze, Silver, or Gold packages, designed to give your car the perfect level of care. All tiers include our signature attention to detail and satisfaction guarantee."
+      description="Choose from our Standard, Enhanced, or Deep packages, designed to give your car the perfect level of care. All tiers include our signature attention to detail and satisfaction guarantee."
     />
   </div>
 
