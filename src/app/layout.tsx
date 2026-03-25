@@ -11,8 +11,8 @@ import { Manrope } from "next/font/google";
 
 
 export const metadata: Metadata = {
-  title: 'Detail Pros | Premium Car Detailing by Students',
-  description: 'Experience meticulous car detailing by local high school students. Guaranteed satisfaction, eco-friendly products, and affordable Bronze, Silver, Gold packages. Book your shine today!',
+  title: 'Upper Valley Detail | Premium Car Detailing by Students',
+  description: 'Experience meticulous car detailing by local high school students at Upper Valley Detail. Guaranteed satisfaction, eco-friendly products, and affordable detailing packages. Book your shine today!',
   keywords: ["car detailing, auto detailing, local car wash, student car detailing, mobile car wash, car cleaning service, high school students, eco-friendly car wash, car care"],
   openGraph: {
     "title": "Detail Pros | Premium Car Detailing by Students",
