@@ -10,7 +10,6 @@ import HeroSplitTestimonial from '@/components/sections/hero/HeroSplitTestimonia
 import InlineImageSplitTextAbout from '@/components/sections/about/InlineImageSplitTextAbout';
 import NavbarStyleCentered from '@/components/navbar/NavbarStyleCentered/NavbarStyleCentered';
 import PricingCardEight from '@/components/sections/pricing/PricingCardEight';
-import TestimonialCardSix from '@/components/sections/testimonial/TestimonialCardSix';
 import { Award, Facebook, Instagram, Shield, Sparkles, Twitter } from "lucide-react";
 
 export default function LandingPage() {
@@ -37,8 +36,6 @@ export default function LandingPage() {
           name: "Services",          id: "services"},
         {
           name: "Why Us",          id: "why-us"},
-        {
-          name: "Testimonials",          id: "testimonials"},
         {
           name: "FAQ",          id: "faq"},
         {
@@ -167,29 +164,6 @@ export default function LandingPage() {
     />
   </div>
 
-  <div id="testimonials" data-section="testimonials">
-      <TestimonialCardSix
-      animationType="slide-up"
-      textboxLayout="default"
-      useInvertedBackground={false}
-      testimonials={[
-        {
-          id: "1",          name: "Sarah J.",          handle: "Local Resident",          testimonial: "My car hasn't looked this good since I bought it! The students were incredibly thorough and professional. Highly recommend Detail Pros for their amazing work!",          imageSrc: "http://img.b2bpic.net/free-photo/beautiful-woman-cafe_273609-12690.jpg?_wi=2"},
-        {
-          id: "2",          name: "Mark T.",          handle: "Car Enthusiast",          testimonial: "The attention to detail was outstanding. They really took their time and made sure every inch of my car was spotless. Fantastic work by a great team!",          imageSrc: "http://img.b2bpic.net/free-photo/front-view-man-working-as-nurse_23-2151061623.jpg?_wi=2"},
-        {
-          id: "3",          name: "Emily R.",          handle: "Busy Professional",          testimonial: "So impressed by the dedication of these students. My car feels brand new, and the price was unbeatable for the quality. Will definitely be a repeat customer!",          imageSrc: "http://img.b2bpic.net/free-photo/happy-overjoyed-woman-rejoicing-her-success_74855-3513.jpg?_wi=2"},
-        {
-          id: "4",          name: "David K.",          handle: "Community Member",          testimonial: "It's great to support local students doing such high-quality work. They were polite, efficient, and my car looks showroom ready. Excellent service and fantastic initiative!",          imageSrc: "http://img.b2bpic.net/free-photo/portrait-cheerful-teenage-girl-sitting-cafe_1262-3048.jpg?_wi=2"},
-        {
-          id: "5",          name: "Jessica L.",          handle: "First-time Client",          testimonial: "From the wheels to the interior, every part of my car was gleaming. Their 'guaranteed satisfaction' is no joke - they truly deliver on their promise. A truly professional detail!",          imageSrc: "http://img.b2bpic.net/free-photo/headshot-attractive-young-redhead-female-with-hair-bun-sitting-cafe-having-surprised-facial-expression_273609-9261.jpg?_wi=2"},
-      ]}
-      title="Hear From Our Happy Customers"
-      description="Our clients consistently praise our attention to detail, professional service, and the incredible results we deliver. Read what they have to say about the Detail Pros experience and our dedicated student team."
-      speed={40}
-      topMarqueeDirection="left"
-    />
-  </div>
 
   <div id="faq" data-section="faq">
       <FaqSplitMedia
