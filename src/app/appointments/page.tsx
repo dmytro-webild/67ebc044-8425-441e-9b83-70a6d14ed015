@@ -27,7 +27,6 @@ export default function AppointmentsPage() {
               { name: "Home", id: "/" },
               { name: "Services", id: "/#services" },
               { name: "Why Us", id: "/#why-us" },
-              { name: "Testimonials", id: "/#testimonials" },
               { name: "FAQ", id: "/#faq" },
               { name: "Appointments", id: "/appointments" }
             ]}

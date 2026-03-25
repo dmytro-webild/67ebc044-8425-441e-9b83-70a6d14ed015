@@ -31,8 +31,6 @@ export default function BlackoutTimesPage() {
               {
                 name: "Why Us",                id: "why-us"},
               {
-                name: "Testimonials",                id: "testimonials"},
-              {
                 name: "FAQ",                id: "faq"},
               {
                 name: "Manage Availability",                id: "blackout-times"}

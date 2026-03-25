@@ -45,7 +45,6 @@ export default function SchedulePage() {
                 { name: "Home", id: "home" },
                 { name: "Services", id: "services" },
                 { name: "Why Us", id: "why-us" },
-                { name: "Testimonials", id: "testimonials" },
                 { name: "FAQ", id: "faq" }
             ]}
             button={{
