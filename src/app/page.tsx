@@ -58,7 +58,7 @@ export default function LandingPage() {
       useInvertedBackground={false}
       background={{
         variant: "plain"}}
-      title="Upper Valley Detail"
+      title="Upper Valley Detail: Precision Car Care by Dedicated Students"
       titleClassName="font-bold"
       description="We're two high school freshmen with two years of experience in meticulous detailing. Your satisfaction is guaranteed. Say you're interested and let us transform your vehicle!"
       testimonials={[]}
