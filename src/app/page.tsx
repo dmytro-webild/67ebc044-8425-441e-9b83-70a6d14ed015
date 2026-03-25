@@ -43,7 +43,9 @@ export default function LandingPage() {
         {
           name: "Appointments",          id: "/appointments"},
         {
-          name: "Manage Availability",          id: "/blackout-times"}
+          name: "Manage Availability",          id: "/blackout-times"},
+        {
+          name: "Schedule",          id: "/schedule"}
       ]}
       button={{
         text: "Schedule Now",        href: "/schedule"}}
@@ -99,6 +101,8 @@ export default function LandingPage() {
       mediaAnimation="none"
       metricsAnimation="none"
       textBoxClassName="max-w-md mx-auto"
+      imageSrc="https://images.unsplash.com/photo-1546410531-bb4ffa88798e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHwxfHxvdXRzaWRlJTIwb2YlMjBhJTIwc2Nob29sfGVufDB8fHx8MTcwMDgxNzY3MXww&ixlib=rb-4.0.3&q=80&w=1080"
+      imageAlt="Outside of a school building"
     />
   </div>
 
