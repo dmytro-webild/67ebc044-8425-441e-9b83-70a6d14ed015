@@ -8,9 +8,9 @@ import FooterCard from '@/components/sections/footer/FooterCard';
 import { Facebook, Instagram, Twitter } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Schedule Your Detail | Detail Pros",  description: "Book your next car detailing appointment with Detail Pros using our easy online schedule management system. View available time slots and secure your spot.",  keywords: ["schedule car detailing, book car detailing, car detailing calendar, auto detailing appointment, detail pros schedule"],
+  title: "Schedule Your Detail | Upper Valley Detail",  description: "Book your next car detailing appointment with Upper Valley Detail using our easy online schedule management system. View available time slots and secure your spot.",  keywords: ["schedule car detailing, book car detailing, car detailing calendar, auto detailing appointment, Upper Valley Detail schedule"],
   openGraph: {
-    title: "Schedule Your Detail | Detail Pros",    description: "Book your next car detailing appointment with Detail Pros using our easy online schedule management system. View available time slots and secure your spot.",    url: "https://www.detailpros.com/schedule",    siteName: "Detail Pros",    images: [
+    title: "Schedule Your Detail | Upper Valley Detail",    description: "Book your next car detailing appointment with Upper Valley Detail using our easy online schedule management system. View available time slots and secure your spot.",    url: "https://www.uppervalleydetail.com/schedule",    siteName: "Upper Valley Detail",    images: [
       {
         url: "http://img.b2bpic.net/free-photo/high-angle-new-car-with-back-door-open_23-2148332892.jpg",        alt: "Car detailing schedule calendar"
       }
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     type: "website"
   },
   twitter: {
-    card: "summary_large_image",    title: "Schedule Your Detail | Detail Pros",    description: "Book your next car detailing appointment with Detail Pros using our easy online schedule management system. View available time slots and secure your spot.",    images: [
+    card: "summary_large_image",    title: "Schedule Your Detail | Upper Valley Detail",    description: "Book your next car detailing appointment with Upper Valley Detail using our easy online schedule management system. View available time slots and secure your spot.",    images: [
       "http://img.b2bpic.net/free-photo/high-angle-new-car-with-back-door-open_23-2148332892.jpg"
     ]
   }
@@ -51,7 +51,7 @@ export default function SchedulePage() {
             ]}
             button={{
                 text: "Schedule Now",                href: "/schedule"}}
-            brandName="Detail Pros"
+            brandName="Upper Valley Detail"
             />
         </div>
 
@@ -81,8 +81,8 @@ export default function SchedulePage() {
 
         <div id="footer" data-section="footer">
             <FooterCard
-            logoText="Detail Pros"
-            copyrightText="© 2024 Detail Pros. All rights reserved."
+            logoText="Upper Valley Detail"
+            copyrightText="© 2024 Upper Valley Detail. All rights reserved."
             socialLinks={[
                 { icon: Instagram, href: "#", ariaLabel: "Instagram" },
                 { icon: Facebook, href: "#", ariaLabel: "Facebook" },
