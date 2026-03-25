@@ -39,7 +39,7 @@ export default function BlackoutTimesPage() {
             ]}
             button={{
               text: "Schedule Now",              href: "/schedule"}}
-            brandName="Detail Pros"
+            brandName="Upper Valley Detail"
           />
         </div>
 
@@ -54,8 +54,8 @@ export default function BlackoutTimesPage() {
 
         <div id="footer" data-section="footer">
             <FooterCard
-            logoText="Detail Pros"
-            copyrightText="© 2024 Detail Pros. All rights reserved."
+            logoText="Upper Valley Detail"
+            copyrightText="© 2024 Upper Valley Detail. All rights reserved."
             socialLinks={[
               {
                 icon: Instagram,

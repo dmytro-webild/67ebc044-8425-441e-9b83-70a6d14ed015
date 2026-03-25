@@ -7,7 +7,6 @@ import FaqSplitMedia from '@/components/sections/faq/FaqSplitMedia';
 import FeatureCardThree from '@/components/sections/feature/featureCardThree/FeatureCardThree';
 import FooterCard from '@/components/sections/footer/FooterCard';
 import HeroSplitTestimonial from '@/components/sections/hero/HeroSplitTestimonial';
-import InlineImageSplitTextAbout from '@/components/sections/about/InlineImageSplitTextAbout';
 import NavbarStyleCentered from '@/components/navbar/NavbarStyleCentered/NavbarStyleCentered';
 import PricingCardEight from '@/components/sections/pricing/PricingCardEight';
 import { Award, Facebook, Instagram, Shield, Sparkles, Twitter } from "lucide-react";
@@ -45,7 +44,7 @@ export default function LandingPage() {
       ]}
       button={{
         text: "Schedule Now",        href: "/schedule"}}
-      brandName="Detail Pros"
+      brandName="Upper Valley Detail"
     />
   </div>
 
@@ -54,9 +53,9 @@ export default function LandingPage() {
       useInvertedBackground={false}
       background={{
         variant: "plain"}}
-      title="Upper Valley Detailing"
+      title="Upper Valley Detail"
       titleClassName="font-bold"
-      description="We are two high school freshmen with 2 years of experience and a commitment to meticulous detailing. Your satisfaction is always guaranteed."
+      description="We're two high school freshmen with two years of experience in meticulous detailing. Your satisfaction is guaranteed. Say you're interested and let us transform your vehicle!"
       testimonials={[]}
       buttons={[
         {
@@ -69,17 +68,6 @@ export default function LandingPage() {
     />
   </div>
 
-  <div id="about" data-section="about">
-      <InlineImageSplitTextAbout
-      useInvertedBackground={false}
-      heading={[
-        {
-          type: "text",          content: "We’re two young high school freshmen who take pride in delivering top-quality detailing with a personal touch. What sets us apart isn’t just our attention to detail—it’s the way we treat every client with honesty, respect, and care. We believe that great service starts with trust, which is why we never ask for payment until you’re completely satisfied with the results. Even at a young age, we’ve built a reputation for being reliable, hardworking, and genuinely passionate about what we do. Every car we work on gets our full effort, as if it were our own. We enjoy transforming vehicles and seeing the difference a clean, polished finish can make—not just for the car, but for its owner too. Our goal is simple: to provide a professional-level clean while building real connections with our customers. We’re always learning, improving, and pushing ourselves to be better with every job. When you choose us, you’re not just getting a service—you’re supporting two motivated students who care deeply about doing things the right way."},
-      ]}
-      headingClassName="text-sm text-foreground/80 leading-relaxed max-w-full"
-      containerClassName="max-w-md mx-auto p-4"
-    />
-  </div>
 
   <div id="why-us" data-section="why-us">
       <FeatureCardThree
@@ -180,7 +168,7 @@ export default function LandingPage() {
         variant: "plain"}}
       tag="Book Your Detail"
       title="Ready for a Spotless Car?"
-      description="Schedule your car detailing service with Detail Pros today! Let us bring the shine back to your vehicle. For custom requests or administrative inquiries, please reach out via this form."
+      description="Schedule your car detailing service with Upper Valley Detail today! Let us bring the shine back to your vehicle. For custom requests or administrative inquiries, please reach out via this form."
       inputPlaceholder="Enter your email"
       buttonText="Schedule Service"
       termsText="By clicking Schedule Service you're confirming that you agree with our Terms and Conditions."
@@ -189,8 +177,8 @@ export default function LandingPage() {
 
   <div id="footer" data-section="footer">
       <FooterCard
-      logoText="Detail Pros"
-      copyrightText="© 2024 Detail Pros. All rights reserved."
+      logoText="Upper Valley Detail"
+      copyrightText="© 2024 Upper Valley Detail. All rights reserved."
       socialLinks={[
         {
           icon: Instagram,
