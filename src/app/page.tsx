@@ -101,10 +101,7 @@ export default function LandingPage() {
           title: "Precision Interior Detailing",          description: "From vacuuming every crumb to polishing surfaces and conditioning leather, we ensure your car's interior feels fresh and pristine.",          imageSrc: "http://img.b2bpic.net/free-photo/interior-modern-red-luxury-sport-car_181624-25467.jpg"},
         {
           id: 2,
-          title: "Spotless Exterior Wash & Wax",          description: "Our exterior service includes a thorough wash, paint decontamination, wheel cleaning, tire dressing, and a durable wax for lasting shine and protection.",          imageSrc: "http://img.b2bpic.net/free-photo/close-up-car-care-dusting_23-2149172885.jpg"},
-        {
-          id: 3,
-          title: "Engine Bay Revitalization",          description: "We carefully clean and dress your engine bay, removing grime and leaving it looking as good as new, enhancing your vehicle's overall presentation.",          imageSrc: "http://img.b2bpic.net/free-photo/mechanics-examining-car-engine_1170-1357.jpg"},
+          title: "Spotless Exterior Wash & Wax",          description: "Our exterior service includes a thorough wash, paint decontamination, wheel cleaning, tire dressing, and a durable wax for lasting shine and protection.",          imageSrc: "http://img.b2bpic.net/free-photo/car-polishing-process-washing_23-2149547517.jpg"},
       ]}
       title="Our Promise: Meticulous Care & Guaranteed Satisfaction"
       description="We don't just clean cars; we restore them. Our dedicated student team adheres to a strict detailing regimen, ensuring every crevice and surface shines with perfection. Your satisfaction is our top priority, and we stand by the quality of our work."
@@ -125,7 +122,7 @@ export default function LandingPage() {
             },
           ],
           features: [
-            "Full interior and exterior clean",            "Vacuum, wipe-down, windows, wash",            "Light dirt and salt removal",            "*Final price depends on vehicle size and condition."
+            "Full interior and exterior clean",            "Vacuum, wipe-down, windows, wash",            "Light dirt and salt removal",            "Price may be adjusted for extra large or exceptionally dirty vehicles."
           ],
         },
         {
@@ -136,7 +133,7 @@ export default function LandingPage() {
             },
           ],
           features: [
-            "Everything in Standard",            "Deeper interior cleaning (seats, carpets, buildup, and grime)",            "More detailed exterior finish and shine",            "*Final price depends on vehicle size and condition."
+            "Everything in Standard",            "Deeper interior cleaning (seats, carpets, buildup, and grime)",            "More detailed exterior finish and shine",            "Price may be adjusted for extra large or exceptionally dirty vehicles."
           ],
         },
         {
@@ -147,7 +144,7 @@ export default function LandingPage() {
             },
           ],
           features: [
-            "Everything in Enhanced",            "Heavy stain removal + deep extraction",            "Full interior reset + high detailed finish",            "*Final price depends on vehicle size and condition."
+            "Everything in Enhanced",            "Heavy stain removal + deep extraction",            "Full interior reset + high detailed finish",            "Price may be adjusted for extra large or exceptionally dirty vehicles."
           ],
         },
       ]}
