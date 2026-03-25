@@ -25,13 +25,13 @@ export default function AppointmentsPage() {
           <NavbarStyleCentered
             navItems={[
               { name: "Home", id: "/" },
-              { name: "Services", id: "/#services" },
-              { name: "Why Us", id: "/#why-us" },
-              { name: "FAQ", id: "/#faq" },
+              { name: "Services", id: "#services" },
+              { name: "Why Us", id: "#why-us" },
+              { name: "FAQ", id: "#faq" },
               { name: "Appointments", id: "/appointments" }
             ]}
             button={{
-              text: "Schedule Now",              href: "/#contact"
+              text: "Schedule Now",              href: "/schedule"
             }}
             brandName="Detail Pros"
           />

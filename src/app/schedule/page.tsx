@@ -42,10 +42,12 @@ export default function SchedulePage() {
         <div id="nav" data-section="nav">
             <NavbarStyleCentered
             navItems={[
-                { name: "Home", id: "home" },
-                { name: "Services", id: "services" },
-                { name: "Why Us", id: "why-us" },
-                { name: "FAQ", id: "faq" }
+                { name: "Home", id: "/" },
+                { name: "Services", id: "#services" },
+                { name: "Why Us", id: "#why-us" },
+                { name: "FAQ", id: "#faq" },
+                { name: "Appointments", id: "/appointments" },
+                { name: "Manage Availability", id: "/blackout-times"}
             ]}
             button={{
                 text: "Schedule Now",                href: "/schedule"}}

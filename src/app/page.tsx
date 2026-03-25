@@ -31,18 +31,20 @@ export default function LandingPage() {
       <NavbarStyleCentered
       navItems={[
         {
-          name: "Home",          id: "home"},
+          name: "Home",          id: "/"},
         {
-          name: "Services",          id: "services"},
+          name: "Services",          id: "#services"},
         {
-          name: "Why Us",          id: "why-us"},
+          name: "Why Us",          id: "#why-us"},
         {
-          name: "FAQ",          id: "faq"},
+          name: "FAQ",          id: "#faq"},
         {
-          name: "Manage Availability",          id: "blackout-times"}
+          name: "Appointments",          id: "/appointments"},
+        {
+          name: "Manage Availability",          id: "/blackout-times"}
       ]}
       button={{
-        text: "Schedule Now",        href: "#contact"}}
+        text: "Schedule Now",        href: "/schedule"}}
       brandName="Detail Pros"
     />
   </div>
@@ -134,7 +136,7 @@ export default function LandingPage() {
             },
           ],
           features: [
-            "Every perk from Standard detail",            "Deeper interior cleaning (seats, carpets, buildup, and grime)",            "More detailed exterior finish and shine",            "*Final price depends on vehicle size and condition."
+            "Everything in Standard",            "Deeper interior cleaning (seats, carpets, buildup, and grime)",            "More detailed exterior finish and shine",            "*Final price depends on vehicle size and condition."
           ],
         },
         {
