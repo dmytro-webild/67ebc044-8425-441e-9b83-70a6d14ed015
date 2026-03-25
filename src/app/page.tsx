@@ -54,30 +54,21 @@ export default function LandingPage() {
       useInvertedBackground={false}
       background={{
         variant: "plain"}}
-      title="Shine Brighter with Detail Pros - Your Car, Our Passion."
+      title="Upper Valley Detail"
       description="Experience top-tier car detailing by dedicated local high school students. We guarantee meticulous attention to every detail, ensuring your vehicle looks its absolute best, every time."
       testimonials={[]}
       buttons={[
         {
+          text: "Say I'm Interested",          href: "#contact"},
+        {
           text: "View Services",          href: "#services"},
         {
-          text: "Book Now",          href: "#contact"},
+          text: "Book Now",          href: "#contact"}
       ]}
-      avatars={[
-        {
-          src: "http://img.b2bpic.net/free-photo/front-view-young-male-grey-t-shirt-posing-smiling_140725-27983.jpg",          alt: "Student avatar"},
-        {
-          src: "http://img.b2bpic.net/free-photo/attractive-young-woman-smiling_74855-2579.jpg",          alt: "Student avatar"},
-        {
-          src: "http://img.b2bpic.net/free-photo/happy-man-sitting-mat-outdoors_23-2147562273.jpg",          alt: "Student avatar"},
-        {
-          src: "http://img.b2bpic.net/free-photo/happy-african-young-lady-walking-outdoors_171337-15134.jpg",          alt: "Student avatar"},
-        {
-          src: "http://img.b2bpic.net/free-photo/cheerful-schoolgirl-carries-rucksack-notepads-digital-tablet-looks-into-distance-with-happy-expression-walks-campus-daytime-female-student-returns-from-university-education-concept_273609-59160.jpg",          alt: "Student avatar"},
-      ]}
-      avatarText="Meet the Team!"
+      avatars={[]}
       imageSrc="http://img.b2bpic.net/free-photo/high-angle-new-car-with-back-door-open_23-2148332892.jpg"
       mediaAnimation="opacity"
+      titleClassName="font-extrabold"
     />
   </div>
 
@@ -86,10 +77,15 @@ export default function LandingPage() {
       useInvertedBackground={false}
       heading={[
         {
-          type: "text",          content: "We’re two young high school freshmen who take pride in delivering top-quality detailing with a personal touch. What sets us apart isn’t just our attention to detail—it’s the way we treat every client with honesty, respect, and care. We believe that great service starts with trust, which is why we never ask for payment until you’re completely satisfied with the results. Even at a young age, we’ve built a reputation for being reliable, hardworking, and genuinely passionate about what we do. Every car we work on gets our full effort, as if it were our own. We enjoy transforming vehicles and seeing the difference a clean, polished finish can make—not just for the car, but for its owner too. Our goal is simple: to provide a professional-level clean while building real connections with our customers. We’re always learning, improving, and pushing ourselves to be better with every job. When you choose us, you’re not just getting a service—you’re supporting two motivated students who care deeply about doing things the right way."},
+          type: "text",          content: "About our Young Team"
+        },
+        {
+          type: "text",          content: "We’re two young high school freshmen who take pride in delivering top-quality detailing with a personal touch. What sets us apart isn’t just our attention to detail—it’s the way we treat every client with honesty, respect, and care. We believe that great service starts with trust, which is why we never ask for payment until you’re completely satisfied with the results. Even at a young age, we’ve built a reputation for being reliable, hardworking, and genuinely passionate about what we do. Every car we work on gets our full effort, as if it were our own. We enjoy transforming vehicles and seeing the difference a clean, polished finish can make—not just for the car, but for its owner too. Our goal is simple: to provide a professional-level clean while building real connections with our customers. We’re always learning, improving, and pushing ourselves to be better with every job. When you choose us, you’re not just getting a service—you’re supporting two motivated students who care deeply about doing things the right way."
+        },
       ]}
-      headingClassName="text-xs text-foreground/80 leading-relaxed max-w-xl mx-auto"
+      headingClassName="text-xs text-white leading-relaxed max-w-xl mx-auto"
       containerClassName="max-w-3xl mx-auto"
+      className="bg-[--primary-cta] p-8 rounded-lg"
     />
   </div>
 
