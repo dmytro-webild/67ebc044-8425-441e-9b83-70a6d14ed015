@@ -4,7 +4,7 @@ import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
 import ContactCenter from '@/components/sections/contact/ContactCenter';
 import FaqSplitMedia from '@/components/sections/faq/FaqSplitMedia';
-import FeatureCardSix from '@/components/sections/feature/FeatureCardSix';
+import FeatureCardThree from '@/components/sections/feature/featureCardThree/FeatureCardThree';
 import FooterCard from '@/components/sections/footer/FooterCard';
 import HeroSplitTestimonial from '@/components/sections/hero/HeroSplitTestimonial';
 import InlineImageSplitTextAbout from '@/components/sections/about/InlineImageSplitTextAbout';
@@ -18,8 +18,8 @@ export default function LandingPage() {
         defaultButtonVariant="elastic-effect"
         defaultTextAnimation="entrance-slide"
         borderRadius="soft"
-        contentWidth="mediumLarge"
-        sizing="largeSmallSizeMediumTitles"
+        contentWidth="compact"
+        sizing="medium"
         background="circleGradient"
         cardStyle="gradient-bordered"
         primaryButtonStyle="flat"
@@ -88,24 +88,26 @@ export default function LandingPage() {
         {
           type: "text",          content: "We’re two young high school freshmen who take pride in delivering top-quality detailing with a personal touch. What sets us apart isn’t just our attention to detail—it’s the way we treat every client with honesty, respect, and care. We believe that great service starts with trust, which is why we never ask for payment until you’re completely satisfied with the results. Even at a young age, we’ve built a reputation for being reliable, hardworking, and genuinely passionate about what we do. Every car we work on gets our full effort, as if it were our own. We enjoy transforming vehicles and seeing the difference a clean, polished finish can make—not just for the car, but for its owner too. Our goal is simple: to provide a professional-level clean while building real connections with our customers. We’re always learning, improving, and pushing ourselves to be better with every job. When you choose us, you’re not just getting a service—you’re supporting two motivated students who care deeply about doing things the right way."},
       ]}
-      headingClassName="text-sm text-foreground/80 leading-relaxed"
+      headingClassName="text-xs text-foreground/80 leading-relaxed max-w-xl mx-auto"
+      containerClassName="max-w-3xl mx-auto"
     />
   </div>
 
   <div id="why-us" data-section="why-us">
-      <FeatureCardSix
+      <FeatureCardThree
       textboxLayout="default"
       useInvertedBackground={false}
       features={[
         {
-          id: 1,
-          title: "Precision Interior Detailing",          description: "From vacuuming every crumb to polishing surfaces and conditioning leather, we ensure your car's interior feels fresh and pristine.",          imageSrc: "http://img.b2bpic.net/free-photo/interior-modern-red-luxury-sport-car_181624-25467.jpg"},
+          id: "interior-detail",          title: "Precision Interior Detailing",          description: "From vacuuming every crumb to polishing surfaces and conditioning leather, we ensure your car's interior feels fresh and pristine.",          imageSrc: "http://img.b2bpic.net/free-photo/interior-modern-red-luxury-sport-car_181624-25467.jpg"},
         {
-          id: 2,
-          title: "Spotless Exterior Wash & Wax",          description: "Our exterior service includes a thorough wash, paint decontamination, wheel cleaning, tire dressing, and a durable wax for lasting shine and protection.",          imageSrc: "http://img.b2bpic.net/free-photo/car-polishing-process-washing_23-2149547517.jpg"},
+          id: "exterior-wash-wax",          title: "Spotless Exterior Wash & Wax",          description: "Our exterior service includes a thorough wash, paint decontamination, wheel cleaning, tire dressing, and a durable wax for lasting shine and protection.",          imageSrc: "http://img.b2bpic.net/free-photo/car-polishing-process-washing_23-2149547517.jpg"},
       ]}
       title="Our Promise: Meticulous Care & Guaranteed Satisfaction"
       description="We don't just clean cars; we restore them. Our dedicated student team adheres to a strict detailing regimen, ensuring every crevice and surface shines with perfection. Your satisfaction is our top priority, and we stand by the quality of our work."
+      gridVariant="uniform-all-items-equal"
+      animationType="slide-up"
+      className="py-12 md:py-16"
     />
   </div>
 
