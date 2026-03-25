@@ -26,10 +26,8 @@ export default function AppointmentsPage() {
             navItems={[
               { name: "Home", id: "/" },
               { name: "Services", id: "#services" },
-              { name: "Why Us", id: "#why-us" },
-              {
-                name: "FAQ", id: "#faq"
-              },
+              { name: "About Us", id: "#about-student-team" },
+              { name: "FAQ", id: "#faq" },
               { name: "Appointments", id: "/appointments" }
             ]}
             button={{
