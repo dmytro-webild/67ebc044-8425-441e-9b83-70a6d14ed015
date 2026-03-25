@@ -35,8 +35,6 @@ export default function LandingPage() {
         {
           name: "Services",          id: "#services"},
         {
-          name: "Why Us",          id: "#why-us"},
-        {
           name: "About Us",          id: "#about-student-team"},
         {
           name: "FAQ",          id: "#faq"},
@@ -72,33 +70,18 @@ export default function LandingPage() {
   </div>
 
 
-  <div id="why-us" data-section="why-us">
-      <FeatureCardThree
-      textboxLayout="default"
-      useInvertedBackground={false}
-      features={[
-        {
-          id: "interior-detail",          title: "Precision Interior Detailing",          description: "From vacuuming every crumb to polishing surfaces and conditioning leather, we ensure your car's interior feels fresh and pristine.",          imageSrc: "http://img.b2bpic.net/free-photo/interior-modern-red-luxury-sport-car_181624-25467.jpg"},
-        {
-          id: "exterior-wash-wax",          title: "Spotless Exterior Wash & Wax",          description: "Our exterior service includes a thorough wash, paint decontamination, wheel cleaning, tire dressing, and a durable wax for lasting shine and protection.",          imageSrc: "http://img.b2bpic.net/free-photo/car-polishing-process-washing_23-2149547517.jpg"},
-      ]}
-      title="Our Promise: Meticulous Care & Guaranteed Satisfaction"
-      description="We don't just clean cars; we restore them. Our dedicated student team adheres to a strict detailing regimen, ensuring every crevice and surface shines with perfection. Your satisfaction is our top priority, and we stand by the quality of our work."
-      gridVariant="uniform-all-items-equal"
-      animationType="slide-up"
-      className="py-12 md:py-16"
-    />
-  </div>
+  
 
-  <div id="about-student-team" data-section="about-student-team">
+  <div id="about-student-team" data-section="about-student-team" className="py-20 md:py-32">
     <MetricSplitMediaAbout
       title="About our Student Team"
       description="We’re two dedicated freshmen with a passion for making vehicles look their absolute best. What started as a simple interest in cars quickly grew into a commitment to precision detailing and dependable service. We treat every vehicle with the same level of care and attention we would give our own, carefully cleaning, restoring, and protecting every surface. Our goal is to provide a trustworthy, high quality experience that leaves your car looking refreshed and well cared for. With a strong work ethic and a focus on customer satisfaction, we take pride in delivering results you can see and feel every time you drive."
-      metrics={[]} // Required but empty as per user request
+      metrics={[]} 
       useInvertedBackground={false}
       mediaAnimation="none"
       metricsAnimation="none"
-      textBoxClassName="max-w-md mx-auto"
+      imageSrc="http://img.b2bpic.net/free-photo/young-man-working-car-wash_23-2149547543.jpg"
+      imageAlt="Young man detailing a car"
     />
   </div>
 
