@@ -56,7 +56,7 @@ export default function LandingPage() {
         variant: "plain"}}
       title="Upper Valley Detail"
       titleClassName="font-bold"
-      description="We're two high school freshmen with two years of experience in meticulous detailing. Your satisfaction is guaranteed. Say you're interested and let us transform your vehicle!"
+      description="We're two high school freshmen with three years of experience in meticulous detailing. Your satisfaction is guaranteed. Say you're interested and let us transform your vehicle!"
       testimonials={[]}
       buttons={[
         {
@@ -80,7 +80,7 @@ export default function LandingPage() {
       useInvertedBackground={false}
       mediaAnimation="none"
       metricsAnimation="none"
-      imageSrc="http://img.b2bpic.net/free-photo/young-man-working-car-wash_23-2149547543.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/low-rise-building_1127-3272.jpg?id=1243099"
       imageAlt="Young man detailing a car"
     />
   </div>
