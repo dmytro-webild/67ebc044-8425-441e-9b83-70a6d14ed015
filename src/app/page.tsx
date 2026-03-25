@@ -9,6 +9,7 @@ import FooterCard from '@/components/sections/footer/FooterCard';
 import HeroSplitTestimonial from '@/components/sections/hero/HeroSplitTestimonial';
 import NavbarStyleCentered from '@/components/navbar/NavbarStyleCentered/NavbarStyleCentered';
 import PricingCardEight from '@/components/sections/pricing/PricingCardEight';
+import MetricSplitMediaAbout from '@/components/sections/about/MetricSplitMediaAbout'; // New import
 import { Award, Facebook, Instagram, Shield, Sparkles, Twitter } from "lucide-react";
 
 export default function LandingPage() {
@@ -35,6 +36,8 @@ export default function LandingPage() {
           name: "Services",          id: "#services"},
         {
           name: "Why Us",          id: "#why-us"},
+        {
+          name: "About Us",          id: "#about-student-team"},
         {
           name: "FAQ",          id: "#faq"},
         {
@@ -84,6 +87,18 @@ export default function LandingPage() {
       gridVariant="uniform-all-items-equal"
       animationType="slide-up"
       className="py-12 md:py-16"
+    />
+  </div>
+
+  <div id="about-student-team" data-section="about-student-team">
+    <MetricSplitMediaAbout
+      title="About our Student Team"
+      description="We’re two dedicated freshmen with a passion for making vehicles look their absolute best. What started as a simple interest in cars quickly grew into a commitment to precision detailing and dependable service. We treat every vehicle with the same level of care and attention we would give our own, carefully cleaning, restoring, and protecting every surface. Our goal is to provide a trustworthy, high quality experience that leaves your car looking refreshed and well cared for. With a strong work ethic and a focus on customer satisfaction, we take pride in delivering results you can see and feel every time you drive."
+      metrics={[]} // Required but empty as per user request
+      useInvertedBackground={false}
+      mediaAnimation="none"
+      metricsAnimation="none"
+      textBoxClassName="max-w-md mx-auto"
     />
   </div>
 

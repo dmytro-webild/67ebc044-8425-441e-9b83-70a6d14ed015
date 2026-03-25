@@ -45,6 +45,7 @@ export default function SchedulePage() {
                 { name: "Home", id: "/" },
                 { name: "Services", id: "#services" },
                 { name: "Why Us", id: "#why-us" },
+                { name: "About Us", id: "#about-student-team" },
                 { name: "FAQ", id: "#faq" },
                 { name: "Appointments", id: "/appointments" },
                 { name: "Manage Availability", id: "/blackout-times"}
