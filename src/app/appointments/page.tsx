@@ -29,7 +29,9 @@ export default function AppointmentsPage() {
               { name: "Why Us", id: "#why-us" },
               { name: "About Us", id: "#about-student-team" },
               { name: "FAQ", id: "#faq" },
-              { name: "Appointments", id: "/appointments" }
+              { name: "Appointments", id: "/appointments" },
+              { name: "Manage Availability", id: "/blackout-times" },
+              { name: "Schedule", id: "/schedule" }
             ]}
             button={{
               text: "Schedule Now",              href: "/schedule"
@@ -70,7 +72,6 @@ export default function AppointmentsPage() {
                   <button className="bg-green-600 text-white px-5 py-2 rounded-lg hover:bg-green-700 transition-colors shadow-md">Accept</button>
                   <button className="bg-red-600 text-white px-5 py-2 rounded-lg hover:bg-red-700 transition-colors shadow-md">Reject</button>
                   <button className="bg-blue-600 text-white px-5 py-2 rounded-lg hover:bg-blue-700 transition-colors shadow-md">Details</button>
-                 dilutions of liquid soap or other common household products.
                 </div>
               </div>
             </div>

@@ -37,7 +37,9 @@ export default function BlackoutTimesPage() {
               {
                 name: "Appointments",                id: "/appointments"},
               {
-                name: "Manage Availability",                id: "/blackout-times"}
+                name: "Manage Availability",                id: "/blackout-times"},
+              {
+                name: "Schedule",                id: "/schedule"}
             ]}
             button={{
               text: "Schedule Now",              href: "/schedule"}}
