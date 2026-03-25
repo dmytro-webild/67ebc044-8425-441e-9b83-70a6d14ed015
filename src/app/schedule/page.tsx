@@ -10,7 +10,7 @@ import { Facebook, Instagram, Twitter } from "lucide-react";
 export const metadata: Metadata = {
   title: "Schedule Your Detail | Upper Valley Detail",  description: "Book your next car detailing appointment with Upper Valley Detail using our easy online schedule management system. View available time slots and secure your spot.",  keywords: ["schedule car detailing, book car detailing, car detailing calendar, auto detailing appointment, Upper Valley Detail schedule"],
   openGraph: {
-    title: "Schedule Your Detail | Upper Valley Detail",    description: "Book your next car detailing appointment with Upper Valley Detail using our easy online schedule management system. View available time slots and secure your spot.",    url: "https://www.uppervalleydetail.com/schedule",    siteName: "Upper Valley Detail",    images: [
+    title: "Schedule Your Detail | Upper Valley Detail",    description: "Book your next car detailing appointment with Upper Valley Detail using our easy online schedule management system. View available time slots and secure your spot.",    url: "https://www.uppervalleydetailing.com/schedule",    siteName: "Upper Valley Detail",    images: [
       {
         url: "http://img.b2bpic.net/free-photo/high-angle-new-car-with-back-door-open_23-2148332892.jpg",        alt: "Car detailing schedule calendar"
       }
