@@ -7,7 +7,6 @@ import { ServiceWrapper } from "@/components/ServiceWrapper";
 import Tag from "@/tag/Tag";
 import { getVisualEditScript } from "@/utils/visual-edit-script";
 import { Manrope } from "next/font/google";
-import { Open_Sans } from "next/font/google";
 
 
 
@@ -42,13 +41,8 @@ export const metadata: Metadata = {
   },
 };
 
-
-const inter = Inter({
-  variable: "--font-inter",
-  subsets: ["latin"],
-});
-const openSans = Open_Sans({
-  variable: "--font-open-sans",
+const manrope = Manrope({
+  variable: "--font-manrope",
   subsets: ["latin"],
 });
 
@@ -60,7 +54,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <ServiceWrapper>
-        <body className={`${inter.variable} ${openSans.variable} antialiased`}>
+        <body className={`${manrope.variable} antialiased`}>
           <Tag />
           {children}
           <script
