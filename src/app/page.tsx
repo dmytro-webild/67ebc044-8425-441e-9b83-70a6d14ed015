@@ -86,8 +86,9 @@ export default function LandingPage() {
       useInvertedBackground={false}
       heading={[
         {
-          type: "text",          content: "We’re two dedicated high school freshmen who take pride in delivering top-quality detailing with a personal touch. What sets us apart isn’t just our attention to detail—it’s the way we treat every client with honesty, respect, and care. We believe that great service starts with trust, which is why we never ask for payment until you’re completely satisfied with the results. Even at a young age, we’ve built a reputation for being reliable, hardworking, and genuinely passionate about what we do. Every car we work on gets our full effort, as if it were our own. We enjoy transforming vehicles and seeing the difference a clean, polished finish can make—not just for the car, but for its owner too. Our goal is simple: to provide a professional-level clean while building real connections with our customers. We’re always learning, improving, and pushing ourselves to be better with every job. When you choose us, you’re not just getting a service—you’re supporting two motivated students who care deeply about doing things the right way."},
+          type: "text",          content: "We’re two young high school freshmen who take pride in delivering top-quality detailing with a personal touch. What sets us apart isn’t just our attention to detail—it’s the way we treat every client with honesty, respect, and care. We believe that great service starts with trust, which is why we never ask for payment until you’re completely satisfied with the results. Even at a young age, we’ve built a reputation for being reliable, hardworking, and genuinely passionate about what we do. Every car we work on gets our full effort, as if it were our own. We enjoy transforming vehicles and seeing the difference a clean, polished finish can make—not just for the car, but for its owner too. Our goal is simple: to provide a professional-level clean while building real connections with our customers. We’re always learning, improving, and pushing ourselves to be better with every job. When you choose us, you’re not just getting a service—you’re supporting two motivated students who care deeply about doing things the right way."},
       ]}
+      headingClassName="text-sm text-foreground/80 leading-relaxed"
     />
   </div>
 
@@ -116,7 +117,7 @@ export default function LandingPage() {
       plans={[
         {
           id: "standard",          badge: "STANDARD DETAIL",          badgeIcon: Sparkles,
-          price: "Starting at $179",          subtitle: "Best for regular maintenance.",          buttons: [
+          price: "Starting at $129",          subtitle: "Best for regular maintenance.",          buttons: [
             {
               text: "Book Standard",              href: "#contact"
             },
@@ -127,7 +128,7 @@ export default function LandingPage() {
         },
         {
           id: "enhanced",          badge: "ENHANCED DETAIL",          badgeIcon: Shield,
-          price: "Starting at $219",          subtitle: "Most popular, best value for most vehicles.",          buttons: [
+          price: "Starting at $199",          subtitle: "Most popular, best value for most vehicles.",          buttons: [
             {
               text: "Book Enhanced",              href: "#contact"
             },
@@ -138,7 +139,7 @@ export default function LandingPage() {
         },
         {
           id: "deep",          badge: "DEEP DETAIL",          badgeIcon: Award,
-          price: "Starting at $289",          subtitle: "Best for heavily used or very dirty cars.",          buttons: [
+          price: "Starting at $249",          subtitle: "Best for heavily used or very dirty cars.",          buttons: [
             {
               text: "Book Deep",              href: "#contact"
             },
