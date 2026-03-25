@@ -36,7 +36,7 @@ export default function AdminDashboardPage() {
             button={{
               text: "Logout",              href: "#" // Placeholder for logout action
             }}
-            brandName="Admin Portal"
+            brandName="Upper Valley Detail"
           />
         </div>
 
@@ -47,7 +47,7 @@ export default function AdminDashboardPage() {
                 Dashboard Overview
             </h1>
             <p className="text-lg text-foreground/80 mb-8">
-              Welcome to the administration portal. Here you can manage appointments and settings for Detail Pros.
+              Welcome to the administration portal. Here you can manage appointments and settings for Upper Valley Detail.
             </p>
 
             <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
