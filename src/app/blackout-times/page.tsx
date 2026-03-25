@@ -29,7 +29,7 @@ export default function BlackoutTimesPage() {
               {
                 name: "Services",                id: "#services"},
               {
-                name: "Why Us",                id: "#why-us"},
+                name: "About Us",                id: "#about-student-team"},
               {
                 name: "FAQ",                id: "#faq"},
               {
