@@ -24,12 +24,12 @@ export default function AppointmentsPage() {
         <div id="nav" data-section="nav">
           <NavbarStyleCentered
             navItems={[
-              { name: "Home", href: "/" },
-              { name: "Services", href: "/#services" },
-              { name: "Why Us", href: "/#why-us" },
-              { name: "Testimonials", href: "/#testimonials" },
-              { name: "FAQ", href: "/#faq" },
-              { name: "Appointments", href: "/appointments" }
+              { name: "Home", id: "/" },
+              { name: "Services", id: "/#services" },
+              { name: "Why Us", id: "/#why-us" },
+              { name: "Testimonials", id: "/#testimonials" },
+              { name: "FAQ", id: "/#faq" },
+              { name: "Appointments", id: "/appointments" }
             ]}
             button={{
               text: "Schedule Now",              href: "/#contact"
