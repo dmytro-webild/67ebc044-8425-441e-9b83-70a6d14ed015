@@ -33,7 +33,7 @@ export default function AppointmentsPage() {
             button={{
               text: "Schedule Now",              href: "/schedule"
             }}
-            brandName="Detail Pros"
+            brandName="Upper Valley Detail"
           />
         </div>
 
@@ -69,6 +69,7 @@ export default function AppointmentsPage() {
                   <button className="bg-green-600 text-white px-5 py-2 rounded-lg hover:bg-green-700 transition-colors shadow-md">Accept</button>
                   <button className="bg-red-600 text-white px-5 py-2 rounded-lg hover:bg-red-700 transition-colors shadow-md">Reject</button>
                   <button className="bg-blue-600 text-white px-5 py-2 rounded-lg hover:bg-blue-700 transition-colors shadow-md">Details</button>
+                 dilutions of liquid soap or other common household products.
                 </div>
               </div>
             </div>
@@ -78,8 +79,8 @@ export default function AppointmentsPage() {
 
         <div id="footer" data-section="footer">
           <FooterCard
-            logoText="Detail Pros"
-            copyrightText="© 2024 Detail Pros. All rights reserved."
+            logoText="Upper Valley Detail"
+            copyrightText="© 2024 Upper Valley Detail. All rights reserved."
             socialLinks={[
               { icon: Instagram, href: "#", ariaLabel: "Instagram" },
               { icon: Facebook, href: "#", ariaLabel: "Facebook" },
